@@ -1,0 +1,23 @@
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.listaContatoDados {
+  padding: 0px;
+  list-style: none;
+}
+.listaContatoDados li {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.listaContatoDados li:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  background: #bbb;
+  margin-right: 13px;
+  margin-bottom: 2px;
+}

@@ -1,0 +1,26 @@
+.header {
+  margin-bottom: 2.3rem;
+}
+.header ul {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.header ul li {
+  margin-right: 1rem;
+}
+.linkHeader {
+  display: block;
+  text-decoration: none;
+  font-size: 1.35rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000;
+  background: #eee;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+}
+.header :global(.active),
+.linkHeader:hover {
+  background: #ccc;
+}

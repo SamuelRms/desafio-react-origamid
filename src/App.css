@@ -1,0 +1,50 @@
+body {
+  margin: 2rem;
+  background: #000;
+  color: #fff;
+}
+img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+h1 {
+  font-size: 1.5rem;
+}
+.ContainerApp {
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+  margin: 0 auto;
+  min-height: calc(100vh + 10rem);
+}
+.contentApp {
+  flex: 1;
+}
+.animacaoPaginaTotal {
+  transform: translateX(-5000px);
+  opacity: 0;
+  animation: animaPag 1s forwards;
+}
+@keyframes animaPag {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+.carregandoLoading {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 8px solid #a3a3a3;
+  border-left-color: transparent;
+  animation: loadingCarregando 1s infinite;
+}
+@keyframes loadingCarregando {
+  to {
+    transform: rotate(360deg);
+  }
+}

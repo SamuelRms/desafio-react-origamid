@@ -1,0 +1,20 @@
+.produto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.3rem;
+}
+.produto img {
+  margin-bottom: 2.3rem;
+}
+.precoProduto {
+  padding: 1rem;
+  background: green;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 6px;
+}
+.descricaoProduto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.35rem;
+  line-height: 1.35;
+}
